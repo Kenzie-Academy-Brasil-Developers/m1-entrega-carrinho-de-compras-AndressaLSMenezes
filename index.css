@@ -1,0 +1,78 @@
+body main h3 p ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    width: 70%;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+
+    border-radius: 3px;
+    background-color: rgb(224, 224, 224);
+    margin: 20px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+section {
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section ul li {
+    width: 88%;
+    height: 50px;
+    padding: 0px 20px 5px 20px;
+
+    border-radius: 3px;
+    background-color: rgb(182, 180, 180);
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+section button {
+    width: 60%;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+
+    margin: 50px;
+    border: transparent 0px;
+
+    border-radius: 3px;
+    background-color: rgb(36, 230, 149);
+    margin: 20px;
+
+}
